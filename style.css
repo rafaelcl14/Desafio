@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.pai{
+    width: 1600px;
+    height: 900px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.filha{
+    width: 100px;
+    height: 649px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+   
+}
+
+.pai .filha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.neta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 51px;
+}
+
+.neta-1{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    background-color: #BC2A8C;
+    align-items: center;
+    justify-content: center;
+}
+
+.neta-1 img {
+    width: 36px;
+    height: 31px;
+    padding-bottom: 29px;
+    padding-top: 29px;
+}                       
+
+.neta-2{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.neta-2 img {
+    align-items: center;
+    justify-content: center;
+}
+
+.neta-3{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.neta-4{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.neta-5{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.filho{
+    width: 1080px;
+    height: 649px;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 75%);
+}
+
+.neto-0{
+    display: flex;
+    flex-direction: row;
+}
+
+.filho .neto-0 .neto{
+    width: 22px;
+    height: 22px;
+    padding-left: 30px;
+    padding-top: 24px;
+    padding-right: 458px;
+    padding-bottom: 24px;
+}
+
+.filho .neto-0 .neto-1{
+    width: 60px;
+    height: 29px;
+    padding-top: 21px;
+    padding-right: 450px;
+    padding-bottom: 20px;
+}
+
+.filho .neto-0 .neto-1 h1{
+   font-size: normal;
+   font-weight: normal;
+   font-size: 21px;
+   line-height: 29px;
+   color: #000000;
+}
+
+.filho .neto-0 .neto-2{
+    width: 60px;
+    height: 29px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.filho .filho-1 hr{
+    border: 1px solid rgba(224, 224, 224, 0.5);
+}
+
+.filho-2{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.filho-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobinho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 10px;
+    height: 105px;
+    width: 130px;
+}
+
+.sobinho .biso img{
+    display:  flex;
+    flex-direction: column;
+    
+}    
+
+.bisa h1{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.pai-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.neta-6{
+    position: relative;
+
+}
+
+.neta-6-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+
+.neta-7{
+   
+    background-color: white;
+    position: absolute;
+    bottom: -105px;
+    width: 320px;
+    height: 128px;
+    left: 10px;    
+}
+
+.biso{
+    position: relative;
+}
+
+.biso-4{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+    width: 100px;
+    bottom: 6px;
+    left: 13px;
+    top: 55px;
+}
+
+.biso-5{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+    width: 100px;
+    bottom: 6px;
+    left: -10px;
+    top: 72px;
+}
+
+.biso-6{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    
+    width: 100px;
+    bottom: 6px;
+    left: 0px;
+    top: 0px;
+}
+
+.biso-6 h1{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+    color: white;
+}
+
+.biso-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.biso-1 h1{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.biso-2 h1 {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 19px;
+    color: black;
+    padding-left: 10px;
+}
+
+.biso-2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.biso-3{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-0{
+    display: flex;
+    padding-right: 10px;
+}
+
+.container-4 h1{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: black;
+}
+
+
+
+
+
+
+
